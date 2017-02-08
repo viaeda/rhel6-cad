@@ -1,0 +1,32 @@
+#**********************************************************
+# .cshrc sample file
+# Created by Charles Wu; Tel: +86-13917126915
+# Version 1.1
+# Created Date Dec 6 2010
+# Modfied Date Aug 31 2013, By Charles Wu
+#**********************************************************
+
+#**********************************************************
+# Set Machine Envirment
+#**********************************************************
+set	filec			#Substitute the file name to be completed when I type an <ESC> at the command line
+set	autolist
+umask	022			#Creat new file with -rwxr-xr-x
+set	noclobber		#Don't overwrite existing files with the redirection character ">"
+set	nobeep			#Tell filec no to cry if it can't complete a file
+set	ignoreeof		#Don't let me log out by pressing <ctrl+D>
+set	notify			#Notify me when the status of backgroud jobs change
+limit	coredumpsize	0	#Don't creat core dump files a program blows up
+
+
+
+#***Common Path*****
+set path=(. /bin /usr/bin /sbin /usr/sbin /usr/local/bin /usr/local/sbin /usr/X11R6/bin)
+#*******************
+
+source /eda/cshrc/cshrc.alias
+source /eda/cshrc/cshrc.cadence
+source /eda/cshrc/cshrc.synopsys
+source /eda/cshrc/cshrc.mentor
+source /eda/cshrc/cshrc.agilent
+source /eda/cshrc/cshrc.atrenta

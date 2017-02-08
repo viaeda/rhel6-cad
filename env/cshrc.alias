@@ -1,0 +1,23 @@
+#************************************************************
+# User specific aliases and functions
+#************************************************************
+set path=(/eda/Adobe/Reader9/bin $path)
+
+setenv LD_LIBRARY_PATH /eda/synopsys/novas/share/PLI/vcsd2008.12_mhpi/LINUX64:/eda/synopsys/vcs201209/amd64_32/lib
+
+
+alias	startvnc	'vncserver -depth 24 -geometry 1366x768'
+alias	killvnc		'vncserver -kill'
+
+alias	passwd		'yppasswd'
+alias	c		'clear'
+alias	rm		'rm -i'
+alias	del		'rm -rf'
+alias	cp		'cp -i'
+alias	mv		'mv -i'
+alias	ll		'ls -altr'
+alias	la		'ls -a'
+alias	lx		'ls -x'
+alias	pwd		'echo $cwd'
+alias	so		'source'
+alias	virt		'source /eda/cshrc/cshrc.ic61; virtuoso'
