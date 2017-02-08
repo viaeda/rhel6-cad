@@ -10,7 +10,7 @@
 # Set Machine Envirment
 #**********************************************************
 set	filec			#Substitute the file name to be completed when I type an <ESC> at the command line
-set	autolist
+set	autolist		#Auto list available file when click TAB
 umask	022			#Creat new file with -rwxr-xr-x
 set	noclobber		#Don't overwrite existing files with the redirection character ">"
 set	nobeep			#Tell filec no to cry if it can't complete a file
