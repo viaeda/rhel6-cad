@@ -7,8 +7,3 @@ RHEL 6 Configuration Files
    
 2. rhel6-system-initial-script.sh
    init script file for rhel6
-
-3. preparing
-
-
-4.
