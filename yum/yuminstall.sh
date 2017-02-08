@@ -3,7 +3,7 @@
 # File Name: yuminstall.sh
 # Author: Charles Wu <charles.wu@viaeda.com>
 # Created Date: 2016-08-29
-# Last Modified: 2016-10-07 10:48:38
+# Last Modified: 2017-02-08 22:53:01
 # Tel: +86-13917126915
 # REV: 1.0
 
