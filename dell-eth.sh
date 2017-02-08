@@ -5,7 +5,7 @@
 # Created Date: 2016-03-23
 # Last Modified: 2016-03-23 17:13:37
 
-# REV: 
+# REV: 1.0
 
 ## add "biosdevname=0" to file /boot/grup/grup.conf right after "...=auto rhgb quiet", kernel line
 ## remove file /etc/udev/rules.d/70-persistent-net.rules "rm -f /etc/udev/rules.d/70-persistent-net.rules"
