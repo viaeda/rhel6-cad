@@ -3,9 +3,12 @@
 RHEL 6 Configuration Files
 
 1. dell-eth.sh
-rename dell Ethernet em --> eth
+   rename dell Ethernet em --> eth
    
 2. rhel6-system-initial-script.sh
-init script file for rhel6
-   
-   
+   init script file for rhel6
+
+3. preparing
+
+
+4.
