@@ -1,8 +1,6 @@
 #************************************************************
 # User specific aliases and functions
 #************************************************************
-set path=(/eda/Adobe/Reader9/bin $path)
-
 
 alias	startvnc	'vncserver -depth 24 -geometry 1920x1080'
 alias	killvnc		'vncserver -kill'
