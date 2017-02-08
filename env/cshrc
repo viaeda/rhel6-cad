@@ -5,7 +5,7 @@
 # Tel: +86-13917126915
 # Version 1.1
 # Created Date: 2010-08-26
-# Last Modified: 2017-02-08 22:56:28
+# Last Modified: 2017-02-08 22:59:09
 #**********************************************************
 
 #**********************************************************
@@ -26,9 +26,9 @@ limit	coredumpsize	0	#Don't creat core dump files a program blows up
 set path=(. /bin /usr/bin /sbin /usr/sbin /usr/local/bin /usr/local/sbin /usr/X11R6/bin)
 #*******************
 
-source /eda/cshrc/cshrc.alias
-source /eda/cshrc/cshrc.cadence
-source /eda/cshrc/cshrc.synopsys
-source /eda/cshrc/cshrc.mentor
-source /eda/cshrc/cshrc.agilent
-source /eda/cshrc/cshrc.atrenta
+source /apps/env/cshrc.alias
+source /apps/env/cshrc.cadence
+source /apps/env/cshrc.synopsys
+source /apps/env/cshrc.mentor
+source /apps/env/cshrc.agilent
+source /apps/env/cshrc.atrenta
