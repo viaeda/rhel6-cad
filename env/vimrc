@@ -1,50 +1,18 @@
-" Last Modified: 2017-02-08 22:50:28
-set tabstop=4
-set shiftwidth=4
-set backspace=2
-set showmatch
-set ruler
-set incsearch
+" Last Modified: 2017-02-10 21:05:41
 set number
 syntax on
 syntax enable
-set modeline
-set hlsearch
-set previewwindow
-set number
-set showcmd
-set showmode
-map <leader>a ggVG
-set iskeyword+=_,$,@,%,#
-set autoread
 set noerrorbells
-
-set nocompatible
 set ignorecase
 set incsearch
 set hlsearch
 set autoindent
 set smartindent
-
-
-set history=1000
-set ruler
-set showcmd
-
-filetype plugin indent on
-
 set nowrap
-set sidescroll=20
-set textwidth=200
 set wrap
 set linebreak
 
-map <Up> gk
-map <Down> gj
-
 :colorscheme darkblue
-set softtabstop=4
-
 
 autocmd BufWritePre,FileWritePre * ks|call LastModified()|'s
 
@@ -63,7 +31,7 @@ endfunc
 
 
 
-autocmd BufNewFile *.sh,*.csh,*.pl exec ":call SetTitle()" 
+autocmd BufNewFile *.sh,*.csh,*.pl,*.py exec ":call SetTitle()" 
 autocmd BufNewFile *.il      exec ":call SetSkillTitle()"
 
 func SetTitle() 
@@ -76,6 +44,9 @@ func SetTitle()
 	elseif &filetype == 'perl'
         call setline(1,"\#!/usr/bin/perl -w")
 		call append(line("."), "")
+	elseif &filetype == 'python'
+		call setline(1,"\#!/usr/bin/env python")
+	        call append(line("."), "")
 	endif
 		call append(line(".")+1, "\# File Name: ".expand("%")) 
 		call append(line(".")+2, "\# Author: Charles Wu <charles.wu@viaeda.com>") 
