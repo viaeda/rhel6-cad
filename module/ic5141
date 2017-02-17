@@ -13,3 +13,5 @@ setenv	CDS_ROOT	/home/apps/ic5141
 setenv	CDS_INST_DIR	/home/apps/ic5141
 setenv	CDS_INSTALL_DIR		/home/apps/ic5141/tools/dfII
 setenv	CDS_Netlisting_Mode	Analog
+
+setenv	MGC_HOME	/home/apps/aoi_cal_2014.1_17.12
