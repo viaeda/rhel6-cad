@@ -1,0 +1,15 @@
+#%Module 1.0
+#
+#  MPICH module for use with 'environment-modules' package:
+# 
+
+prepend-path	PATH		/home/apps/ic5141/bin
+prepend-path	PATH		/home/apps/ic5141/tools/bin 
+prepend-path	PATH		/home/apps/ic5141/tools/dfII/bin
+
+setenv	CDSDIR		/home/apps/ic5141
+setenv	CDSHOME		/home/apps/ic5141
+setenv	CDS_ROOT	/home/apps/ic5141
+setenv	CDS_INST_DIR	/home/apps/ic5141
+setenv	CDS_INSTALL_DIR		/home/apps/ic5141/tools/dfII
+setenv	CDS_Netlisting_Mode	Analog
