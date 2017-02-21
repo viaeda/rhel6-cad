@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # File Name: send_command.sh
-# Author: Charles Wu <charles.wu@wztek.com>
+# Author: Charles Wu <charles.wu@viaeda.com>
 # Created Date: 2017-02-20
-# Last Modified: 2017-02-20 16:59:54
+# Last Modified: 2017-02-21 15:31:31
 # Tel: +86-13917126915
 # REV: 
 
