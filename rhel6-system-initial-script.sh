@@ -3,7 +3,7 @@
 # File Name: rhel6-system-initial-script.sh
 # Author: Charles Wu <charles.wu@viaeda.com>
 # Created Date: 2016-10-07
-# Last Modified: 2016-10-07 10:48:17
+# Last Modified: 2017-03-24 17:43:10
 # Tel: +86-13917126915
 # REV: 
 
@@ -30,10 +30,10 @@ sed -i 's/auth_admin<\/allow_inactive>/no<\/allow_inactive>/g' $policy_file
 
 
 ## turnoff iptables
-/sbin/service iptables stop
-/sbin/chkconfig iptables off
+## /sbin/service iptables stop
+## /sbin/chkconfig iptables off
 
 
 
 ## Disable SELINUX
-sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig/selinux
+## sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig/selinux
