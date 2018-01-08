@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # File Name: dell-eth.sh
-# Author: Charles Wu <charles.wu@viaeda.com> 
+# Author: Charles Wu <qi.wu@outlook.com> 
 # Created Date: 2016-03-23
-# Last Modified: 2016-03-23 17:13:37
+# Last Modified: 2018-01-08 22:49:09
 
 # REV: 1.0
 
