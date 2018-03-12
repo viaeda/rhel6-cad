@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # File Name: incre-backup.sh
-# Author: Charles Wu <charles.wu@wztek.com>
+# Author: Charles Wu <qi.wu@outlook.com>
 # Created Date: 2016-10-11
 # Last Modified: 2016-10-19 12:53:30
 # Tel: +86-13917126915
