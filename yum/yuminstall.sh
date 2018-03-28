@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # File Name: yuminstall.sh
-# Author: Charles Wu <charles.wu@viaeda.com>
+# Author: Charles Wu <qi.wu@outlook.com>
 # Created Date: 2016-08-29
-# Last Modified: 2017-02-08 22:53:01
+# Last Modified: 2018-03-28 15:49:24
 # Tel: +86-13917126915
 # REV: 1.0
 
@@ -19,4 +19,4 @@ yum remove subscription-manager -y
 yum remove subscription-manager-migration-data -y
 
 ## Remove Smart Card pop-up
-
+yum remove esc -y
