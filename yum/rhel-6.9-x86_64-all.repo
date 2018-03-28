@@ -1,0 +1,13 @@
+[rhel-workstation-6.9-x86_64]
+name=Red Hat Enterprise Linux Workstation 6.9 x86_64
+baseurl=file:///root/yum/rhel-workstation-6.9-x86_64-dvd
+enabled=1
+gpgcheck=1
+gpgkey=file:///root/yum/rhel-workstation-6.9-x86_64-dvd/RPM-GPG-KEY-redhat-release
+
+[supp-workstation-6.9-rhel-6-x86_64]
+name=Supplementary Red Hat Enterprise Linux Workstation 6.9 x86_64
+baseurl=file:///root/yum/supp-workstation-6.9-rhel-6-x86_64-dvd
+enabled=1
+gpgcheck=1
+gpgkey=file:///root/yum/supp-workstation-6.9-rhel-6-x86_64-dvd/RPM-GPG-KEY-redhat-release
