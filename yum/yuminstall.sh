@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # File Name: yuminstall.sh
-# Author: Charles Wu <charles.wu@viaeda.com>
+# Author: Charles Wu <qi.wu@outlook.com>
 # Created Date: 2016-08-29
 # Last Modified: 2017-02-08 22:53:01
 # Tel: +86-13917126915
