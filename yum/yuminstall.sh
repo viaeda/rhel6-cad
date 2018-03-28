@@ -19,4 +19,4 @@ yum remove subscription-manager -y
 yum remove subscription-manager-migration-data -y
 
 ## Remove Smart Card pop-up
-yum remove esc -y
+
