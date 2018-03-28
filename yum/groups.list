@@ -5,43 +5,53 @@ Debugging Tools
 Desktop
 Desktop Debugging and Performance Tools
 Desktop Platform
+Development tools
 Dial-up Networking Support
 Directory Client
 E-mail server
+Eclipse
+Emacs
 Fonts
 General Purpose Desktop
 Graphical Administration Tools
+Graphics Creation Tools
 Hardware monitoring utilities
 Input Methods
 Internet Applications
 Internet Browser
 Java Platform
+Large Systems Performance
 Legacy UNIX compatibility
 Legacy X Window System compatibility
+MySQL Database client
 NFS file server
 Network Infrastructure Server
 Network file system client
 Networking Tools
-Office Suite and Productivity
 Performance Tools
 Perl Support
+PostgreSQL Database client
 Printing client
+Scientific support
 Security Tools
 Server Platform
+Server Platform Development
+TeX support
+Technical Writing
+Virtualization
+Virtualization Client
+Virtualization Platform
 Web Server
 X Window System
+iSCSI Storage Client
 Backup Client
 CIFS file server
 Client management tools
 Console internet tools
 Desktop Platform Development
-Development tools
 Directory Server
-Eclipse
-Emacs
 FCoE Storage Client
 FTP server
-Graphics Creation Tools
 Guest Agents
 Identity Management Server
 Infiniband Support
@@ -49,34 +59,24 @@ Java Base
 Java Browser
 Java Database
 KDE Desktop
-Large Systems Performance
 Mainframe Access
 Messaging Client Support
 Misc
 Multimedia
-MySQL Database client
 MySQL Database server
 Network Storage Server
+Office Suite and Productivity
 PHP Support
-PostgreSQL Database client
 PostgreSQL Database server
 Remote Desktop Clients
 Ruby Support
 SNMP Support
-Scientific support
-Server Platform Development
 Smart card support
 Storage Availability Tools
 System Management
 System administration tools
-TeX support
-Technical Writing
 TurboGears application framework
-Virtualization
-Virtualization Client
-Virtualization Platform
 Virtualization Tools
 Web Servlet Engine
 Web-Based Enterprise Management
 Zhong Yi Song Fonts
-iSCSI Storage Client
