@@ -1,4 +1,4 @@
-" Last Modified: 2017-02-10 21:05:41
+" Last Modified: 2020-01-31 16:58:23
 set number
 syntax on
 syntax enable
@@ -45,14 +45,14 @@ func SetTitle()
         call setline(1,"\#!/usr/bin/perl -w")
 		call append(line("."), "")
 	elseif &filetype == 'python'
-		call setline(1,"\#!/usr/bin/env python")
+		call setline(1,"\#!/usr/bin/env python3")
 	        call append(line("."), "")
 	endif
 		call append(line(".")+1, "\# File Name: ".expand("%")) 
-		call append(line(".")+2, "\# Author: Charles Wu <qi.wu@outlook.com>") 
+		call append(line(".")+2, "\# Author: Qi Wu <qi.wu@outlook.com>") 
 		call append(line(".")+3, "\# Created Date: ".strftime("%F")) 
 		call append(line(".")+4, "\# Last Modified: ".strftime("%F %T")) 
-		call append(line(".")+5, "\# Tel: +86-13917126915")
+		call append(line(".")+5, "\# Tel: +86-18601683566")
 		call append(line(".")+6, "\# REV: ")
 		call append(line(".")+7, "")
 endfunc
@@ -61,7 +61,7 @@ func SetSkillTitle()
 	if &filetype == 'skill'
 		call setline(1, "/*************************************************************************") 
 		call append(line("."),   "	> File Name: ".expand("%")) 
-		call append(line(".")+1, "	> Author: Charles Wu <qi.wu@outlook.com>") 
+		call append(line(".")+1, "	> Author: Qi Wu <qi.wu@outlook.com>") 
 		call append(line(".")+2, "	> Created Date: ".strftime("%F")) 
 		call append(line(".")+3, "	> Last Modified: ".strftime("%F %T")) 
 		call append(line(".")+4, " ************************************************************************/") 
