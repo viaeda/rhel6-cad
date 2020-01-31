@@ -1,0 +1,6 @@
+[centos-6.10-x86_64-all]
+name=CentOS 6.10 x86_64 DVD1 And DVD2
+baseurl=file:///root/yum/CentOS-6.10-x86_64-bin-DVD
+enabled=1
+gpgcheck=1
+gpgkey=file:///root/yum/CentOS-6.10-x86_64-bin-DVD/RPM-GPG-KEY-CentOS-6
