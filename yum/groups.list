@@ -5,6 +5,7 @@ Debugging Tools
 Desktop
 Desktop Debugging and Performance Tools
 Desktop Platform
+Desktop Platform Development
 Development tools
 Dial-up Networking Support
 Directory Client
@@ -17,7 +18,6 @@ Graphical Administration Tools
 Graphics Creation Tools
 Hardware monitoring utilities
 Input Methods
-Internet Applications
 Internet Browser
 Java Platform
 Large Systems Performance
@@ -31,6 +31,7 @@ Networking Tools
 Performance Tools
 Perl Support
 PostgreSQL Database client
+Print Server
 Printing client
 Scientific support
 Security Tools
@@ -40,43 +41,43 @@ TeX support
 Technical Writing
 Virtualization
 Virtualization Client
-Virtualization Platform
 Web Server
 X Window System
 iSCSI Storage Client
 Backup Client
+Backup Server
 CIFS file server
 Client management tools
 Console internet tools
-Desktop Platform Development
 Directory Server
 FCoE Storage Client
 FTP server
 Guest Agents
+High Availability
+High Availability Management
 Identity Management Server
 Infiniband Support
-Java Base
-Java Browser
-Java Database
+Internet Applications
 KDE Desktop
+Load Balancer
 Mainframe Access
 Messaging Client Support
-Misc
-Multimedia
 MySQL Database server
 Network Storage Server
 Office Suite and Productivity
 PHP Support
 PostgreSQL Database server
 Remote Desktop Clients
+Resilient Storage
 Ruby Support
 SNMP Support
+Scalable Filesystems
 Smart card support
 Storage Availability Tools
 System Management
 System administration tools
 TurboGears application framework
+Virtualization Platform
 Virtualization Tools
 Web Servlet Engine
 Web-Based Enterprise Management
-Zhong Yi Song Fonts
