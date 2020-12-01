@@ -37,7 +37,12 @@ gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults
 
 ## turnoff iptables
 /sbin/service iptables stop
+/sbin/service iptables6 stop
+/sbin/service libvirtd stop
+
 /sbin/chkconfig iptables off
+/sbin/chkconfig iptables6 off
+/sbin/chkconfig libvirtd off
 
 
 
