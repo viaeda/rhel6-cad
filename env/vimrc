@@ -1,4 +1,4 @@
-" Last Modified: 2020-01-31 16:58:23
+" Last Modified: 2021-04-16 21:09:05
 set number
 syntax on
 syntax enable
@@ -52,7 +52,7 @@ func SetTitle()
 		call append(line(".")+2, "\# Author: Qi Wu <qi.wu@outlook.com>") 
 		call append(line(".")+3, "\# Created Date: ".strftime("%F")) 
 		call append(line(".")+4, "\# Last Modified: ".strftime("%F %T")) 
-		call append(line(".")+5, "\# Tel: +86-18601683566")
+		call append(line(".")+5, "\# Tel: +86-139-1762-3018")
 		call append(line(".")+6, "\# REV: ")
 		call append(line(".")+7, "")
 endfunc
