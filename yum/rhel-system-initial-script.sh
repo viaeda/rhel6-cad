@@ -3,9 +3,9 @@
 # File Name: rhel6-system-initial-script.sh
 # Author: Charles Wu <qi.wu@outlook.com>
 # Created Date: 2016-10-07
-# Last Modified: 2018-03-28 15:38:18
-# Tel: +86-13917126915
-# REV: 
+# Last Modified: 2021-04-16 20:04:54
+# Tel: +86-139-1762-3018
+# REV: 1.0
 
 
 
@@ -35,14 +35,9 @@ gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults
 
 
 
-## turnoff iptables
+## turnoff and disable iptables
 /sbin/service iptables stop
-/sbin/service iptables6 stop
-/sbin/service libvirtd stop
-
 /sbin/chkconfig iptables off
-/sbin/chkconfig iptables6 off
-/sbin/chkconfig libvirtd off
 
 
 
@@ -50,16 +45,3 @@ gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults
 /usr/sbin/setenforce 0
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/selinux/config
 
-
-
-
-/sbin/chkconfig cloud-config off
-/sbin/chkconfig cloud-final off
-/sbin/chkconfig cloud-init off
-/sbin/chkconfig cloud-init-local off
-/sbin/chkconfig ctdb off
-/sbin/chkconfig ipmidetectd off
-/sbin/chkconfig cgdcbxd off
-/sbin/chkconfig systemtap off
-
-yum remove esc -y
